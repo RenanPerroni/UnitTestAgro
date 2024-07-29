@@ -17,6 +17,7 @@ namespace UnitTestAgro
         {
             //abre o browser edge
             driver = new EdgeDriver();
+            driver.Manage().Window.Maximize();
             Loginpage();
         }
 
